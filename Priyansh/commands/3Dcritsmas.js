@@ -20,7 +20,7 @@ module.exports.run = async function ({ api, event, args,}) {
     api.sendMessage("✨Please Wait My Love ✨🧡 ", event.threadID, event.messageID);
     axios.get(`${API}${encodeURI(anup)}`, {responseType: "arraybuffer"}) .then(data => {const imageBuffer = data.data;
     fs.writeFileSync(pathsave, Buffer.from(imageBuffer));
-    api.sendMessage({body: `💙🍒Ye Lo Meri Jaan✨🧡\n\nCoded By:\n               ✯─━━◉❖𝗝𝗨𝗟𝗠𝗜≛𝗝𝗔𝗔𝗧❖◉━━─✯ `, attachment: fs.createReadStream(pathsave)}, event.threadID, () => fs.unlinkSync(pathsave), event.messageID);}).catch(error => {
+    api.sendMessage({body: `💙🍒Ye Lo Meri Jaan✨🧡\n\nCoded By:\n               ✯─━━◉❖🅰🆇🆂🅷🆄❖◉━━─✯ `, attachment: fs.createReadStream(pathsave)}, event.threadID, () => fs.unlinkSync(pathsave), event.messageID);}).catch(error => {
 
           
             let err;
