@@ -2,7 +2,7 @@ module.exports.config = {
   name: "info",
   version: "1.0.1", 
   hasPermssion: 0,
-  credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+  credits: "Axshu",
   description: "Admin and Bot info.",
   commandCategory: "...",
   cooldowns: 1,
@@ -24,7 +24,7 @@ const time = process.uptime(),
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【HH:mm:ss】");
 var link =                                     
-[""];
+["https://i.imgur.com/t0wRg6c.jpeg"];
 var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ ̿)🇮🇳 𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 🇮🇳 
 (⌐▀͡ ̯ʖ▀)︻̷┻̿═━一-
 
